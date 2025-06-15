@@ -14,7 +14,7 @@
 - **Tag System**: Organize tasks with colored tags for better categorization
 - **Task Filtering**: Filter tasks by tags to focus on specific categories
 - **Upcoming Tasks View**: See all tasks with deadlines in chronological order
-- **Customizable Board**: Change board background color and title
+- **Customizable Board**: Change board background color
 - **Persistent Storage**: All changes are automatically saved to local storage
 
 ## Getting Started

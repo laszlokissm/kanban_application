@@ -54,22 +54,7 @@ const Settings = ({ onColorChange, boardName, setBoardName }: SettingsProps) => 
             {/* Divider to separate sections */}
             <Divider sx={{ mb: 3 }} />
 
-            {/* Board Name Section */}
-            <Box sx={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
-                <Typography variant="h6" component="p" sx={{ flex: 1 }}>
-                    Board name:
-                </Typography>
-                <TextField
-                    variant="outlined"
-                    value={boardName}
-                    onChange={(e) => setBoardName(e.currentTarget.value)}
-                    sx={{
-                        width: '300px',
-                        fontSize: '1.25rem',
-                        input: { padding: '0.15rem', fontSize: '1.25rem' },
-                    }}
-                />
-            </Box>
+            
         </div>
     );
 };
