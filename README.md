@@ -1,8 +1,5 @@
 # Kanban Task Manager
 
-<h2 align="center">
-  <img height="256" width="256" src="./src/assets/preact.svg">
-</h2>
 
 <h3 align="center">A feature-rich Kanban board application built with Preact</h3>
 
@@ -19,9 +16,28 @@
 
 ## Getting Started
 
-- `npm start` - Starts a dev server at http://localhost:5173/
-- `npm run build` - Builds for production, emitting to `dist/`
-- `npm run preview` - Starts a server at http://localhost:4173/ to test production build locally
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/kanban-application.git
+   cd kanban-application
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+   ```bash
+   npm start
+   ```
+   This starts a dev server at http://localhost:5173/
+
+4. **Build for production**
+   ```bash
+   npm run build
+   ```
+
 
 ## Tech Stack
 
